@@ -22,7 +22,8 @@ Simple library for form validation.
 Also you can run validation by triggering event ```validate``` on form or it's element. Example: ```$('form').trigger('validate')```.
 
 ### Available rules
-All rules are placed inside form html. Example: ```<input class="input" placeholder="**** **** **** ****" name="pan" type="text" data-validate-rule="card-number" required pattern="\d*" data-validate-filter="[\s\-]*" minlength="16" maxlength="19" autocomplete="cc-number" x-autocompletetype="cc-number" inputmode="numeric" id="cardNumber">```.
+All rules are placed inside form html. Example: 
+````<input class="input" placeholder="**** **** **** ****" name="pan" type="text" data-validate-rule="card-number" required pattern="\d*" data-validate-filter="[\s\-]*" minlength="16" maxlength="19" autocomplete="cc-number" x-autocompletetype="cc-number" inputmode="numeric" id="cardNumber">````
 
 #### All fields
 - required
