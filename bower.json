@@ -1,0 +1,24 @@
+{
+  "name": "nebo-validate",
+  "description": "form validator",
+  "main": "src/validate.js",
+  "authors": [
+    "Nebo15"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "validate",
+    "jquery",
+    "html5",
+    "form"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

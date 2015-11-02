@@ -1,0 +1,17 @@
+{
+  "name": "nebo-validate",
+  "version": "1.0.0",
+  "description": "form validator",
+  "main": "src/validate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validate",
+    "jquery",
+    "html5",
+    "form"
+  ],
+  "author": "Nebo15",
+  "license": "ISC"
+}
