@@ -9,18 +9,18 @@ Simple library for form validation.
     // validate inputs on change event 
     $inputs.validate('change');
     
-    // Jump to next input when data is valid
+    // valid event callback
     $inputs.on('valid', function() {
         var $this = $(this);
         $this.removeError();
     });
 
-    // Remove errors for skipped fields
+    // validation-skipped event skipped
     $inputs.on('validation-skipped', function() {
         $(this).removeError();
     });
 
-    // Validation errors
+    // invalid event
     $inputs.on('invalid', function(event, rules_failed, rules) {});
     
 ````
