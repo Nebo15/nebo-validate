@@ -30,9 +30,11 @@ All rules are placed inside form html. Example: ```<input class="input" placehol
 - fixLength
 - data-validate-rule - when it's set to ```card-number``` validator would run Luhn checking
 - data-validate-filter - rexept to filter validated data, for example when you use jQuery.mask plugin;
+
 #### Input type number
 - min
 - max
+
 #### Input type text
 - minLength
 - maxLength
