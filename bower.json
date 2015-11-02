@@ -13,6 +13,9 @@
     "form"
   ],
   "moduleType": [],
+  "dependencies": {
+    "jquery": ">2.0.0"
+  },
   "homepage": "",
   "ignore": [
     "**/.*",
