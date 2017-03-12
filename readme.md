@@ -1,5 +1,7 @@
 # Nebo Validate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Nebo15/nebo-validate.svg)](https://greenkeeper.io/)
+
 Simple library for form validation.
  
 ## Triggered events
